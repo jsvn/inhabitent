@@ -7,17 +7,10 @@
 
 ?>
 
-			</div><!-- #content -->
+			<!-- </div><! #content -->
 
-      <?php
-  /**
-   * The template for displaying the footer.
-   *
-   * @package RED_Starter_Theme
-   */
 
-  ?>
-              </div><!-- #content -->
+              <!-- </div><! #content -->
 
               <footer id="colophon" class="site-footer" role="contentinfo">
                   <!-- <div class="site-info"> -->
@@ -44,7 +37,10 @@
                           <p><span class="day">Saturday:</span> 10am to 2pm</p>
                           <p><span class="day">Sunday:</span> Closed</p>
                       </div> <!--business hours -->
-
+                      <div class="site-info">
+                          <!--<a href="<?php echo esc_url( 'https://inhabitent.org/' ); ?>"><?php printf( esc_html( 'Copyright &copy; 2016 Inhabitent' ), '' ); ?></a>-->
+                          Copyright &copy; 2016 Inhabitent
+                      </div><!-- .site-info -->
 
                       <div class="footer-logo">
 
@@ -55,12 +51,9 @@
                   <!-- </div> <!-footer content -->
 
 
-                  <div class="site-info">
-                      <!--<a href="<?php echo esc_url( 'https://inhabitent.org/' ); ?>"><?php printf( esc_html( 'Copyright &copy; 2016 Inhabitent' ), '' ); ?></a>-->
-                      Copyright &copy; 2016 Inhabitent
-                  </div><!-- .site-info -->
+
               </footer><!-- #colophon -->
-          <!-- </div><!- #page --> 
+          <!-- </div><!- #page -->
 
           <?php wp_footer(); ?>
 

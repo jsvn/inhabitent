@@ -809,16 +809,32 @@ object {
   height: 25rem;
   position: relative; }
 
+h2.inb {
+  text-align: center; }
+
 .home span {
   display: none; }
 
 .home h2.entry-title {
   display: none; }
 
-.home h2 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: rem; }
+.news-wrapper li {
+  width: 400px;
+  padding-right: 30px; }
+
+ul.news-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: 0px; }
+
+.home .read-more-button {
+  display: none;
+  padding-top: 0px; }
+
+.home .entry-meta {
+  display: none; }
 
 /* About page */
 #primary.content {
@@ -834,7 +850,8 @@ object {
 .site-info {
   font-family: Novecento Sans Web,sans-serif;
   padding: 1.5rem 0;
-  margin-top: 500px;
+  color: white;
+  margin-top: 300px;
   text-align: center;
   text-transform: uppercase; }
 
@@ -842,7 +859,7 @@ object {
   width: 300px; }
 
 .footer-logo {
-  margin-left: 200px;
+  margin-left: 0px;
   margin-top: 70px; }
 
 footer#colophon {

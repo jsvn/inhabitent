@@ -20,7 +20,9 @@
   height:25rem;
   position:relative;
 }
-
+h2.inb {
+  text-align: center;
+}
 .home span {
     display: none;
 }
@@ -28,11 +30,26 @@
 .home h2.entry-title {
     display: none;
   }
-  .home h2 {
-      text-align: center;
-      text-transform: uppercase;
-      margin-bottom: rem;
-  }
+
+.news-wrapper li{
+    width: 400px;
+    padding-right: 30px;
+}
+
+
+ul.news-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.home .read-more-button {
+    display: none;
+    padding-top: 0px;
+}
+
+.home .entry-meta {
+    display: none;
+}
 
   /* About page */
   #primary.content {

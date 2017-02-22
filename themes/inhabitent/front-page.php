@@ -34,12 +34,11 @@ get_header(); ?>
        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="Logo" width="HERE" height="HERE" /> -->
        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="Logo" width="HERE" height="HERE" /> -->
     </a>
-     <!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/inhabitent-logo-full.svg">
-     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/home-hero.jpg"> -->
+
 
     </main><!-- #main -->
     <section class= "news-feed">
-      <h2>Inhabitent Journal</h2>
+      <h2 class="inb">Inhabitent Journal</h2>
     <ul class="news-wrapper">
      <?php
        $args = array( 'post_type' => 'post', 'order' => 'DSC', 'numberposts' => 3 );
