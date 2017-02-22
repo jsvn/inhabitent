@@ -39,7 +39,7 @@ get_header(); ?>
 
     </main><!-- #main -->
     <section class= "news-feed">
-      <h2>Inhabitent Diary</h2>
+      <h2>Inhabitent Journal</h2>
     <ul class="news-wrapper">
      <?php
        $args = array( 'post_type' => 'post', 'order' => 'DSC', 'numberposts' => 3 );
@@ -49,11 +49,10 @@ get_header(); ?>
            <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
              <li>
           <?php get_template_part( 'template-parts/content-front-page' ); ?>
-          <p><?php the_date(); ?> / <?php comments_number();?></p>    
+          <p><?php the_date(); ?> / <?php comments_number();?></p>
           <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h2>
           </li>
             <?php endforeach; wp_reset_postdata(); ?>
-
       </ul>
     </section>
 	</div><!-- #primary -->

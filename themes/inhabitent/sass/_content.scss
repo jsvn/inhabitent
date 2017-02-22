@@ -82,7 +82,18 @@ top: 0;
 
 }
 
+.read-more-button {
+    border: 1px solid #000;
+    color: #000;
+    width: 125px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 13px;
+}
 
+.read-more-button span {
+    color: black;
+}
 /* Comments */
 
 .comment-content a {
