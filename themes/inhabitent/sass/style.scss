@@ -63,3 +63,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "content";
 @import "media";
 @import "page-templates";
+@import "footer";
+
+body{
+}
+
+#footer-full {
+  background: url("(/images/dark-wood@2x.png"); background-repeat: no-repeat;
+  background-size: auto auto;
+}
+.footer-widgets {
+    background-color: #252525;
+}

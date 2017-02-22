@@ -38,7 +38,7 @@ ul, ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
@@ -62,9 +62,14 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+	width: 750px;
 }
 
 table {
 	margin: 0 0 $base__space-unit;
 	width: 100%;
+}
+
+.content-wrapper {
+	display:flex;
 }

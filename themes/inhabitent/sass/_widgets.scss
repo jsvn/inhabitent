@@ -15,3 +15,36 @@
 .widget_search .search-submit {
 	display: none;
 }
+.widget-area{
+	width: 270px;
+	margin-right: 100px;
+	padding-left: 30px;
+	padding-top: 80px;
+	line-height: 2rem;
+}
+
+.widget widget_archive ul {
+margin-left: -40px;
+}
+
+span.add {
+    font-weight:normal;
+}
+
+.textwidget span{
+    font-weight: bold;
+}
+
+.widget ul {
+    padding: 0px;
+    margin-left: 0px;
+	}
+
+a:visited {
+
+    color: #248a83;
+}
+a{
+	color: #248a83;
+	text-decoration: none;
+}
