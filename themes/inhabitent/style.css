@@ -374,6 +374,9 @@ table {
   display: -ms-flexbox;
   display: flex; }
 
+span.day-of-week {
+  font-weight: bold; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -532,7 +535,8 @@ a {
   position: fixed;
   transition: top .5s linear;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  top: 0px; }
 
 .site-content {
   margin-left: auto;
@@ -836,9 +840,93 @@ ul.news-wrapper {
 .home .entry-meta {
   display: none; }
 
+.home article#post-21 {
+  display: none; }
+
 /* About page */
-#primary.content {
+.about-content img {
+  width: 1280px;
+  max-width: none; }
+
+.text {
+  margin-left: 300px; }
+
+.text b {
+  font-size: 40px;
+  margin-left: 230px; }
+
+.product_archive_title {
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-top: 10px;
+  height: 200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-bottom: 1px dashed #e1e1e1;
+  margin-bottom: 50px;
+  width: 1120px; }
+
+.product_archive_title a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.3rem; }
+
+a:hover {
+  color: #000; }
+
+.product_wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto; }
+
+.product_sub_catagories {
+  width: 10%;
+  text-align: center; }
+
+.post-type-archive-product article {
+  width: 23%; }
+
+.post-type-archive-product .post_top_wrap {
+  border: 1px solid #e1e1e1; }
+
+.single-content {
   border-right: none; }
+
+.single_product_wrapper {
+  border: 1px solid green;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 95vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .single_product_wrapper .entry-header {
+    width: 45%; }
+    .single_product_wrapper .entry-header img {
+      margin-top: 80px; }
+  .single_product_wrapper .entry-content {
+    width: 45%;
+    margin-top: 50px; }
+    .single_product_wrapper .entry-content .entry-title {
+      font-size: 2.4rem;
+      color: #d99054;
+      text-transform: uppercase; }
+    .single_product_wrapper .entry-content .single_product_price {
+      color: #000;
+      font-size: 1.7rem; }
 
 .site-footer {
   max-width: 100%;

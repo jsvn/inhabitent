@@ -36,7 +36,6 @@ h2.inb {
     padding-right: 30px;
 }
 
-
 ul.news-wrapper {
     display: flex;
     justify-content: space-between;
@@ -50,8 +49,120 @@ ul.news-wrapper {
 .home .entry-meta {
     display: none;
 }
+.home article#post-21 {
+    display: none;
+}
 
   /* About page */
-  #primary.content {
-      border-right: none;
+
+  .about-content img {
+    width: 1280px;
+    max-width: none;
+}
+.text {
+    margin-left: 300px;
+
+}
+.text b {
+    font-size: 40px;
+    margin-left: 230px;
+
+}
+//Shop Page
+
+.product_archive_title {
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-top: 10px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed #e1e1e1;
+  margin-bottom: 50px;
+  width: 1120px;
+}
+
+.product_archive_title a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+a:hover {
+  color: #000;
+}
+
+.product_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.product_sub_catagories {
+  width: 10%;
+  text-align: center;
+}
+
+// .product_archive_info {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   border-top: 5px solid #e1e1e1;
+//   padding: 5px;
+// }
+
+.post-type-archive-product {
+
+  article {
+    width: 23%;;
+  }
+
+  .post_top_wrap {
+
+    border: 1px solid #e1e1e1;
+
+  
+  }
+
+}
+//Single-Products Page
+.single-content{
+    border-right: none;
+  }
+  .single_product_wrapper {
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 95vh;
+    justify-content: space-around;
+
+      .entry-header {
+        width: 45%;
+        img{
+          margin-top: 80px;
+        }
+      }
+      .entry-content{
+        width: 45%;
+        margin-top: 50px;
+          .entry-title{
+
+            font-size: 2.4rem;
+            color: #d99054;
+            text-transform: uppercase;
+          }
+          .single_product_price {
+
+            color: #000;
+            font-size: 1.7rem;
+          }
+          .single_product_content {
+
+          }
+      }
+
   }

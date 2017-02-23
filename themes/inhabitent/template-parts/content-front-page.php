@@ -24,5 +24,5 @@
 
         <div class="read-more-button">
             <a href="<?php get_permalink(); ?>"><span>Read Entry</span></a>
-
+        </div>
     </article><!-- #post-## -->

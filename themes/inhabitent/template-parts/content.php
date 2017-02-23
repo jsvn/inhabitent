@@ -30,3 +30,4 @@
  </div>
 
 </article><!-- #post-## -->
+  <?php get_sidebar(); ?>
