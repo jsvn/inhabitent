@@ -4,7 +4,9 @@
  *
  * @package RED_Starter_Theme
  */
-?>
+
+get_header?>
+
 <div class="content-wrapper">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -28,5 +30,8 @@
   <div class="read-more-button">
   <a href="<?php echo get_permalink(); ?>"><span> Read More<span class="arrow">→</span></span></a>
  </div>
+ <?php get_sidebar(); ?>
  </div>
+
 </article><!-- #post-## -->
+<?php get_footer(); ?>

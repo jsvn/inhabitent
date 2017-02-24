@@ -33,14 +33,14 @@ get_header(); ?>
       						<h3 class="product_sub_catagories"><a href="<?php echo get_term_link($term, '$product_type') ?>"><?php	echo	$term->name; ?></a></h3>
 
       				<?php endforeach; wp_reset_postdata(); ?>
-</div>
+
+           </div>
+
 <div class="product_wrapper">
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-			 <?php
-			 	get_template_part( 'template-parts/content-products' );
-				 ?>
+			  <?php get_template_part( 'template-parts/content-products' ); ?>
 
 			<?php endwhile; ?>
 

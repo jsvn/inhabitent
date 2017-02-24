@@ -19,14 +19,12 @@ get_header(); ?>
 
 		      	</header><!-- .entry-header -->
 
-		      	<div class="entry-content">
+		      	<div class="single-content">
 							<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 						  <p class="single_product_price">	<?php echo CFS()->get( 'price' ); ?></p>
 		      		<?php the_content(); ?>
 		      	</div><!-- .entry-content -->
 		      </article><!-- #post-## -->
-
-
 
 
 		<?php endwhile; // End of the loop. ?>

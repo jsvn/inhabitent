@@ -69,3 +69,11 @@ wp_add_inline_style('red-starter-style', $hero_css);
   }
 
 add_action('wp_enqueue_script', 'inhabitent_about_img_css');
+
+function my_theme_archive_title( $title ) {
+	if ( is_post_type_archive('products') ) {
+        $title = 'Shop Stuff';
+	}
+		return $title;
+	}
+	add_filter( 'get_the_archive_title', 'my_theme_archive_title' );

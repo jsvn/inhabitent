@@ -17,12 +17,18 @@
 }
 .widget-area{
 	width: 270px;
-	margin-right: 100px;
+	margin-left: 80px;
 	padding-left: 30px;
-	padding-top: 80px;
 	line-height: 2rem;
 }
-
+.single .widget-area {
+    width: 270px;
+		margin-right: 100px;
+    padding-left: 30px;
+    padding-top: 70px;
+    line-height: 2rem;
+		margin-left: 0;
+}
 .widget widget_archive ul {
 margin-left: -40px;
 }
