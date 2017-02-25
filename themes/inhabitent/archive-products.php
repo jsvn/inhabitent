@@ -14,12 +14,9 @@ get_header(); ?>
 
       			<!-- <header class="page-header">
       			</header><! .page-header -->
-
+            <?php the_archive_title( '<h1 class="page-title shop-title">', '</h1>' ); ?>
       			<div class="product_archive_title">
-      				<?php
-      					the_archive_title( '<h1 class="page-title shop-title">', '</h1>' );
-      					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-      				?>
+      				<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>
 
       				<?php
       				$terms = get_terms( array(

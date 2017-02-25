@@ -278,8 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5rem;
-  width: 730px; }
+  margin-bottom: 1.5rem; }
 
 dfn, cite, em, i {
   font-style: italic; }
